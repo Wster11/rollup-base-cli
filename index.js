@@ -5,8 +5,8 @@ const download = require('download-git-repo');
 //version 版本号
 //name 新项目名称
 program.version('1.0.0', '-v, --version')
-    .command('init <templateName> <projectName>')
-    .action((templateName, projectName) => {
+    .command('init <projectName>')
+    .action((projectName) => {
       console.log('clone template ...');
       download('github:Wster11/rollup-kit-temp', projectName, function (err) {
           console.log(err ? 'Error' : 'Success')
