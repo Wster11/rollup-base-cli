@@ -13,7 +13,13 @@
     "type": "git",
     "url": "git+https://github.com/Wster11/rollup-base-cli.git"
   },
-  "keywords": [],
+  "keywords": [
+    "rollup",
+    "eslint",
+    "SDK",
+    "cli",
+    "lib"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
