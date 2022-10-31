@@ -11,7 +11,7 @@ jobs:
     - stage: npm release
       if: tag IS present
       node_js: "8"
-      script: yarn compile
+      # script: yarn compile
       # before_deploy:
       #   - cd dist
       deploy:
