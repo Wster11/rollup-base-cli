@@ -1,3 +1,8 @@
+language: node_js
+
+node_js:
+    - "12.13"
+    
 deploy:
   provider: npm
   email: 464905943@qq.com
@@ -8,3 +13,4 @@ deploy:
     repo: Wster11/rollup-base-cli
     branch: main
   skip_cleanup: 'true'
+
