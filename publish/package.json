@@ -1,0 +1,35 @@
+{
+  "name": "rollup-base-cli",
+  "version": "1.0.14",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "rollup-cli": "index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\"",
+    "postversion": "git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wster11/rollup-base-cli.git"
+  },
+  "keywords": [
+    "rollup",
+    "eslint",
+    "SDK",
+    "cli",
+    "lib"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wster11/rollup-base-cli/issues"
+  },
+  "homepage": "https://github.com/Wster11/rollup-base-cli#readme",
+  "dependencies": {
+    "commander": "^6.1.0",
+    "download-git-repo": "^3.0.2"
+  }
+}
